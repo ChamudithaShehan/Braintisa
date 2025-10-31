@@ -98,6 +98,50 @@ npm run lint
 └── package.json                 # Dependencies and scripts
 ```
 
+## README Screenshots
+
+Add visual previews of each major page directly in this README by following the conventions below. Using relative paths keeps the images working on GitHub and in local clones.
+
+1. Export page screenshots (PNG/JPG/WebP) and save them in `docs/readme-images/`.
+2. Use the suggested filenames so the existing Markdown snippets continue to work if you regenerate assets.
+3. Commit the images together with README updates so they render correctly on GitHub.
+
+| Page Section      | Suggested Filename              | Markdown Snippet |
+|-------------------|---------------------------------|------------------|
+| Home Page         | `home-page.png`                 | `![Home Page](docs/readme-images/home-page.png)` |
+| Our Services Page | `our-services-page.png`         | `![Our Services](docs/readme-images/our-services-page.png)` |
+| Our Projects Page | `our-projects-page.png`         | `![Our Projects](docs/readme-images/our-projects-page.png)` |
+| Team Page         | `team-page.png`                 | `![Team Page](docs/readme-images/team-page.png)` |
+| Get in Touch Page | `get-in-touch-page.png`         | `![Get in Touch](docs/readme-images/get-in-touch-page.png)` |
+
+For example, to embed the home page preview:
+
+```markdown
+![Home Page](docs/readme-images/home-page.png)
+```
+
+Repeat the same pattern for the remaining sections, replacing the filename and alt text as needed.
+
+### Home Page
+
+![Home Page](docs/readme-images/home-page.png)
+
+### Our Services Page
+
+![Our Services](docs/readme-images/our-services-page.png)
+
+### Our Projects Page
+
+![Our Projects](docs/readme-images/our-projects-page.png)
+
+### Team Page
+
+![Team Page](docs/readme-images/team-page.png)
+
+### Get in Touch Page
+
+![Get in Touch](docs/readme-images/get-in-touch-page.png)
+
 ## Key Components & Pages
 
 - **Navbar:** Glass-effect fixed header with responsive navigation and theme toggle.
